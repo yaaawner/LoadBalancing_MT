@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Processor N ="4">
+    <limit value="100" />
+    <limit value="80" />
+    <limit value="60" />
+    <limit value="80" />
+  </Processor >
+  <Program N = "32">
+    <load value ="20" />
+    <load value ="10" />
+    <load value ="5" />
+    <load value ="10" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+    <load value ="5" />
+  </Program>
+  <DE N ="32" >
+    <pair prog1 ="0" prog2 ="1" rate ="100" />
+    <pair prog1 ="0" prog2 ="8" rate ="10" />
+    <pair prog1 ="1" prog2 ="9" rate ="0" />
+    <pair prog1 ="8" prog2 ="9" rate ="50" />
+    <pair prog1 ="2" prog2 ="3" rate ="50" />
+    <pair prog1 ="2" prog2 ="10" rate ="50" />
+    <pair prog1 ="3" prog2 ="11" rate ="50" />
+    <pair prog1 ="10" prog2 ="11" rate ="50" />
+    <pair prog1 ="4" prog2 ="5" rate ="50" />
+    <pair prog1 ="4" prog2 ="12" rate ="50" />
+    <pair prog1 ="5" prog2 ="13" rate ="50" />
+    <pair prog1 ="12" prog2 ="13" rate ="50" />
+    <pair prog1 ="6" prog2 ="7" rate ="50" />
+    <pair prog1 ="6" prog2 ="14" rate ="50" />
+    <pair prog1 ="7" prog2 ="15" rate ="50" />
+    <pair prog1 ="14" prog2 ="15" rate ="50" />
+    <pair prog1 ="16" prog2 ="17" rate ="50" />
+    <pair prog1 ="16" prog2 ="24" rate ="50" />
+    <pair prog1 ="17" prog2 ="25" rate ="50" />
+    <pair prog1 ="24" prog2 ="25" rate ="50" />
+    <pair prog1 ="18" prog2 ="19" rate ="50" />
+    <pair prog1 ="18" prog2 ="26" rate ="50" />
+    <pair prog1 ="19" prog2 ="27" rate ="50" />
+    <pair prog1 ="26" prog2 ="27" rate ="50" />
+    <pair prog1 ="20" prog2 ="21" rate ="50" />
+    <pair prog1 ="20" prog2 ="28" rate ="50" />
+    <pair prog1 ="21" prog2 ="29" rate ="50" />
+    <pair prog1 ="28" prog2 ="29" rate ="50" />
+    <pair prog1 ="22" prog2 ="23" rate ="50" />
+    <pair prog1 ="22" prog2 ="30" rate ="50" />
+    <pair prog1 ="23" prog2 ="30" rate ="50" />
+    <pair prog1 ="30" prog2 ="31" rate ="50" />
+  </DE>
+</root>
